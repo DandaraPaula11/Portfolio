@@ -149,8 +149,6 @@ main{
             font-size: 16px;
             height: 56px;
             width: 166px;
-            font-size: 18px ;
-            font-weight: 400;
             color: var(--color-azul-claro);
             text-align: center;
             display: flex;
@@ -169,6 +167,7 @@ main{
 
 /*Section-2***************************/
 .section-2{
+    border: solid 2px saddlebrown;
     height: 350px;
     display: flex;
     justify-content: center;
@@ -243,7 +242,7 @@ main{
 
 /*Section-3***************************/
 .section-3-Projetos{
-    /* border: solid 5px rgb(211, 13, 13); */
+    border: solid 5px rgb(211, 13, 13);
     text-align: center;
     margin-top: 2%;
     margin-left: 4%;
@@ -254,7 +253,8 @@ main{
     .section-3-txt-titulo{ /*border: solid 5px rgb(138, 13, 211);*/}
         #section-3-txt-H2{
             color: var(--color-azul-mais-escuro);
-            font-size: 34px;
+            font-size: 26px;
+            text-align: justify;
         }
     
 /*Projetos*/
@@ -308,3 +308,72 @@ main{
                 justify-content: center;
                 align-items: center;
             }
+
+ /*footer3***************************/
+footer{
+    height: 300px;
+    margin-top: 2%;
+    gap: 50px;
+    background-color: var(--color-azul-escuro);
+}
+/*div de cima*/
+.footer-div_cima{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+.footer-div1, .footer-div2{
+    width: 50%;
+    height: 180px; 
+    margin-left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}      
+    #footer-div1,  #footer-div2{}
+    .footer-div1_h5,  .footer-div2_h5{
+        display: flex;
+        text-align: justify;
+    }
+    #footer-div1_h5, #footer-div2_h5{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-botoes);
+    }
+    .footer-div1_p, .footer-div2_p{}
+    #footer-div1_p,  #footer-div2_p{
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 32px;
+        font-size: 15px ;
+        color: var(--color-branca) ;
+        line-height: 24px;
+    }
+    .footer_hr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2%;
+    }
+        #footer_hr-id{
+            width: 88%;
+            border-radius: 8px;
+            align-items: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border: solid 1px #ffffff;;    
+        }
+/*Div de baixo*/
+.footer-div_baixo{
+    margin-left: 4%;
+    margin-right: 4%;
+}      
+    #footer-div_baixo_copy{
+        font-size: 14px;
+        text-align: center;
+        color: var(--color-azul-claro);
+        }
