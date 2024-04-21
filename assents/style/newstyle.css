@@ -21,6 +21,7 @@ a { color: inherit; }
 :root {
     --font-color-menu: #777e90;
     --font-h1: #90e0ef;
+    --font-p:#001219;
     --color-branca: #f4f4f4;
     --color-azul-claro:  #cfd6dd;
     --color-azul-pscina: #90e0ef;
@@ -63,7 +64,7 @@ header {
         justify-content: center;
         align-items: center;
     }
-        .header-list-content::before {
+        /* .header-list-content::before {
             content: '';
             position: absolute;
             width: .2rem;
@@ -71,7 +72,7 @@ header {
             background: var(--color-branca);
             left: -9rem;
             border-radius: 2rem;
-        }
+        } */
     .header-link-menu {
         color: var(--color-branca);
         font-weight: 400;
@@ -166,4 +167,144 @@ main{
             color: var(--color-azul-claro);
         }
 
-/*Main***************************/
+/*Section-2***************************/
+.section-2{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+ }
+    .section-2_conteudo{
+        width: 100%;
+        height: auto;
+        /*height: 64%;*/
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .section-2_conteudo-h5{ 
+        /**/ font-size: 28px;
+        text-align: justify;
+        margin-top: 2%; 
+        margin-left: 4%; 
+        color: var(--color-azul-mais-escuro);
+     }
+    .section-2_conteudo_eu, .section-2_conteudo_Skills{
+         width: 100%;
+         height: 22em;
+     }
+    /*Sobre Eu*/
+    .section-2_conteudo_eu{ }
+        .section-2_conteudo_eu_p{
+             width: 550px;
+             margin-top: 2%; 
+             margin-left: 4%; 
+        }
+            #section-2_conteudo_eu_p{
+                font-size: 17px ;
+                font-weight: 500;
+                color: var(--font-p) ;
+                line-height: 24px;
+                text-align: justify;
+                margin-top: 2%;
+            }
+    /*Skills*/
+    .section-2_conteudo_Skills{}
+         .section-2_conteudo_Skills-Hard{}
+         .section-2_conteudo_Skills-Soft{
+             margin-top: 4%;
+         }
+            .section-2_conteudo_Skills-Soft-div{
+                width: 32%;
+            }
+            .section-2_conteudo-Skills{
+                display: flex; 
+                gap: 30px;
+                font-weight: 500;
+                margin-top: 2%; 
+                margin-left: 4%; 
+             }
+             #section-2_conteudo-Skills{
+                background-color: var(--color-azul-medio);
+                color: var(--color-branca);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                border-radius: 6px;
+                width: 100%;
+                height: 50px;
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+
+/*Section-3***************************/
+.section-3-Projetos{
+    /* border: solid 5px rgb(211, 13, 13); */
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+    /*Titulo e Texto*/
+    .section-3-Projetos-Titulos{ /* border: solid 5px rgb(199, 52, 142); */}
+    .section-3-txt-titulo{ /*border: solid 5px rgb(138, 13, 211);*/}
+        #section-3-txt-H2{
+            color: var(--color-azul-mais-escuro);
+            font-size: 34px;
+        }
+    
+/*Projetos*/
+.section-3-Projetos-1{
+    /* border: solid 5px rgb(53, 211, 13); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .section-3-Projetos-1_img{
+        /* border: solid 5px rgb(211, 13, 161); */
+        width: 40rem;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .section-3-Projetos-1_img-div{/* border: solid 5px rgb(7, 22, 1); */}
+        #section-3-Projetos-1_img{
+            width: 80%;
+        }
+    .section-3-Projetos-1_informacoes{
+        /* border: solid 5px rgb(211, 132, 13); */
+        width: 50%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .section-3-Projetos-1_info{/* border: solid 5px rgb(3, 3, 2); */}
+            .section-3-Projetos-1_info-h3{
+                /* border: solid 5px rgb(13, 171, 211); */
+                text-align: justify;
+                margin-bottom: 2%;
+            }
+            .section-3-Projetos-1_info-p{
+                /* border: solid 5px rgb(211, 13, 185); */
+                text-align: justify;
+                margin-bottom: 2%;
+            }
+            .section-3-Projetos-1_info-btn{
+                /* border: solid 5px rgb(20, 211, 13); */
+                height: 50px;
+                width: 160px;
+                background-color: var(--color-azul-escuro);
+                text-align: justify;
+                border-radius: 6px;
+                font-size: 16px;
+                color: var(--color-branca);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
