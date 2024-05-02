@@ -48,15 +48,20 @@ header {
     background-color: var(--color-azul-escuro);
     box-shadow: 0 .3rem .3rem rgba(0, 0, 0, 0.25);
 }
-    .header-img-perfil {
-        width: 4rem;
-        height: 4rem;
-    }
     .header-nav-content {
         position: relative;
         display: flex;
         justify-content: space-between;
         width: 80%;
+    }
+    .header-figure-perfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-img-perfil {
+        width: 4rem;
+        height: 4rem;
     }
     .header-list-content {
         position: relative;
@@ -239,15 +244,14 @@ main{
 
 /*Section-3***************************/
 .section-3{
-    /* border: solid 5px rgb(211, 13, 13); */
     text-align: center;
     margin-top: 4%;
     margin-left: 4%;
     margin-right: 4%;
 }
     /*Titulo e Texto*/
-    .section-3-Projetos-Titulos{ /* border: solid 5px rgb(199, 52, 142); */}
-    .section-3-txt-titulo{ /*border: solid 5px rgb(138, 13, 211);*/}
+    .section-3-Projetos-Titulos{ }
+    .section-3-txt-titulo{ }
         #section-3-txt-H2{
             color: var(--color-azul-mais-escuro);
             font-size: 26px;
