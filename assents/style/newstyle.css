@@ -167,13 +167,12 @@ main{
     background-color: var(--color-background-section-2);
 }
 .section-2{
-    /* border: solid 2px saddlebrown; */
     border-radius: 2em;
     height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 6%;
+    padding-top: 4%;
     padding-bottom: 6%;
     margin-left: 4%;
     margin-right: 4%;
@@ -198,10 +197,10 @@ main{
          height: 22em;
      }
     /*Sobre Eu*/
-    .section-2_conteudo_eu{ }
+    .section-2_conteudo_eu{}
         .section-2_conteudo_eu_p{
              width: 550px;
-             margin-top: 2%; 
+            margin-top: 2%; 
              margin-left: 4%; 
         }
             #section-2_conteudo_eu_p{
